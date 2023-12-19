@@ -38,3 +38,11 @@ This program makes sure the following features are thread safe:
 
 - I/O two threads should never write to cout at the same time
 - Dice Queue must be safe for the **game master** and **racer**
+
+## Makefile
+The program has the following make targets:
+
+- `make`  - Builds the Program
+- `make run` - Runs three races with 2, 4, and 10 racers.
+- `make clean` - Remove compiled code
+- `make doc` - generate doxygen documentation
